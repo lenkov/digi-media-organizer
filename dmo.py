@@ -1,10 +1,8 @@
-# Digital media organizer
-# 
-# Scans all media files in the source folder and moves them into sub-folders at the destination folder
-# The first sub-folder is always the year (YYYY) and the second is either:
-# MM-City (if we can resolve the exif geo data to a city) 
-# MM-Long-Lat (if we can't find the city based on the geo data)
-# MM-DD (if no geo-data)
+# Digital Media Organizer - main file
+# before using adjust the SRC_DIR and DEST_DIR
+# usage:
+#     python3.8 dmo.py
+
 
 import os
 import time
